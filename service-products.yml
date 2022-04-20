@@ -1,0 +1,12 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+server:
+  port: 8081
+spring:
+  application:
+    name: service-products
+  data:
+    mongodb:
+      uri: mongodb+srv://dragon-user:psUTlZerOfwp1wur@clustertalentengine.k0gwx.mongodb.net/dragon-integrador
